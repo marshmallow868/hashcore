@@ -9,12 +9,13 @@ A high-performance, C-compatible shared library for **xxHash64** file hashing, o
 - **FFI Ready**: Designed for seamless Swift and C integration.
 
 ## Installation
-Build the dynamic library using Cargo:
+Build the dynamic library using the script:
 ```bash
-cargo build --release
-````
+chmod +x build-rust.sh
+./build-rust.sh
+```
 
-The output will be in `target/release/libhashcore.dylib`.
+The output will be in `target/universal/release/libhashcore.dylib`.
 
 ## Quick Start (C)
 
@@ -37,7 +38,7 @@ int main() {
     }
     return 0;
 }
-````
+```
 
 ## License
 
