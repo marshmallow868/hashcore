@@ -1,2 +1,19 @@
+# macOS
 .DS_Store
+
+# Misc
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+
+# VSCode / Cursor
+.vscode/
+.cursor/
+
+# Cargo
 target/
+**/*.rs.bk
+Cargo.lock

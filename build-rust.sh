@@ -6,7 +6,7 @@ LIB_NAME="hashcore"
 OUTPUT_DIR="target/universal/release"
 LIB_FILENAME="lib${LIB_NAME}.dylib"
 
-echo "--- Starting Rust Build für macOS (Universal) ---"
+echo "--- Starting Rust Build for macOS (Universal) ---"
 
 rustup target add x86_64-apple-darwin
 rustup target add aarch64-apple-darwin
